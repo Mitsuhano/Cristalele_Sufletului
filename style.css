@@ -10,6 +10,9 @@ body {
 .container {
     display: block;
     font-size: 20px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 .block {
     height: 100px;
@@ -165,7 +168,8 @@ body {
     position: relative;
     width: 100%;
     text-align: center;
-    justify-content: center ;
+    color: white;
+    
 }
 .end_img {
     width: 100%;
@@ -173,4 +177,20 @@ body {
     border-bottom: 10px black ;
     max-width: 920px;
     margin: 0 auto;
+}
+.end_1t {
+    color: rgb(255, 255, 255);
+    transform: translate(5%, 590%);
+    text-align: left;
+}
+.end_2t {
+    color: rgb(255, 255, 255);
+    transform: translate(-8%, -3500%);
+    text-align: right;
+
+}
+.end_3t {
+    color: rgb(255, 255, 255);
+    transform: translate(-2%, -500%);
+    text-align: right;
 }
